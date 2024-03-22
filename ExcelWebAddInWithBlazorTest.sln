@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddInWithBlazorTest", "ExcelWebAddInWithBlazorTest\ExcelWebAddInWithBlazorTest.csproj", "{2FE62D3B-F763-4100-82BD-465F9F0813BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddInWithBlazorTestWeb", "ExcelWebAddInWithBlazorTestWeb\ExcelWebAddInWithBlazorTestWeb.csproj", "{CBCEF532-4AD0-4854-B862-ACF24E8D970E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestWithBlazor", "TestWithBlazor", "{D0D5F50A-86D5-4892-9865-21CA656B55A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddIn_Blazor", "ExcelWebAddIn_Blazor\ExcelWebAddIn_Blazor\ExcelWebAddIn_Blazor.csproj", "{6CA785D0-90BB-4250-9923-56C1DC1A644A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddIn_Blazor.Client", "ExcelWebAddIn_Blazor\ExcelWebAddIn_Blazor.Client\ExcelWebAddIn_Blazor.Client.csproj", "{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CBCEF532-4AD0-4854-B862-ACF24E8D970E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCEF532-4AD0-4854-B862-ACF24E8D970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCEF532-4AD0-4854-B862-ACF24E8D970E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCEF532-4AD0-4854-B862-ACF24E8D970E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA785D0-90BB-4250-9923-56C1DC1A644A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA785D0-90BB-4250-9923-56C1DC1A644A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA785D0-90BB-4250-9923-56C1DC1A644A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA785D0-90BB-4250-9923-56C1DC1A644A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FE62D3B-F763-4100-82BD-465F9F0813BD} = {D0D5F50A-86D5-4892-9865-21CA656B55A0}
+		{CBCEF532-4AD0-4854-B862-ACF24E8D970E} = {D0D5F50A-86D5-4892-9865-21CA656B55A0}
+		{6CA785D0-90BB-4250-9923-56C1DC1A644A} = {D0D5F50A-86D5-4892-9865-21CA656B55A0}
+		{4CA1AE3D-CA18-4AC4-B0B5-F0D6251A2937} = {D0D5F50A-86D5-4892-9865-21CA656B55A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FCFACA2-2F47-410E-BB8D-B137C7F062B1}
+	EndGlobalSection
+EndGlobal

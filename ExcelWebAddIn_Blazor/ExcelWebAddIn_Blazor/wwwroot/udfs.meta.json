@@ -1,0 +1,12 @@
+{
+  "functions": [
+    {
+      "name": "sayHelloWorldAsync",
+      "id": "sayHelloWorldAsync"
+    },
+    {
+      "name": "sayHi",
+      "id": "sayHi"
+    }
+  ]
+}
